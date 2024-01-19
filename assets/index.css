@@ -10,10 +10,10 @@ code {
     monospace;
 }
 
-.site-container {
+/* .site-container {
   padding-left: 20rem;
   padding-right: 20rem;
-}
+} */
 
 .site-footer {
 }
@@ -32,7 +32,12 @@ code {
   font-size: 8rem;
 }
 
-span::before {
+.site-title-img {
+  height: 300px;
+  width: 300px;
+}
+
+.change-text::before {
   content: "Hello,";
   animation-name: hello;
   animation-iteration-count: infinite;
