@@ -32,9 +32,16 @@ code {
   font-size: 8rem;
 }
 
+.site-title-container {
+  position: relative;
+}
+
 .site-title-img {
   height: 300px;
   width: 300px;
+  position: absolute;
+  right: -30px;
+  top: 100px;
 }
 
 .change-text::before {
