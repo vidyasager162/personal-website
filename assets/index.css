@@ -24,15 +24,6 @@ code {
 
 .site-title-container {
   margin-top: 12rem;
-}
-
-.site-title {
-  text-decoration: none;
-  color: #000;
-  font-size: 8rem;
-}
-
-.site-title-container {
   position: relative;
 }
 
@@ -44,14 +35,14 @@ code {
   top: 100px;
 }
 
-.change-text::before {
+/* .change-text::before {
   content: "Hello,";
   animation-name: hello;
   animation-iteration-count: infinite;
   animation-duration: 10s;
-}
+} */
 
-@keyframes hello {
+/* @keyframes hello {
   10% {
     content: "Hello,";
   }
@@ -74,4 +65,4 @@ code {
   110% {
     content: "Bonjour,";
   }
-}
+} */
