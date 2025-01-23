@@ -52,42 +52,26 @@ code {
 }
 
 @keyframes hello {
-  0% {
+  10% {
     content: "Hello,";
   }
-  10% {
+  30% {
     content: "Vanakkam,";
   }
 
-  20% {
+  50% {
     content: "Namaste,";
   }
 
-  30% {
+  70% {
     content: "Konnichiwa,";
   }
 
-  40% {
+  90% {
     content: "Anyeonghaseyo,";
   }
 
-  50% {
+  110% {
     content: "Bonjour,";
-  }
-
-  60% {
-    content: "Hola,";
-  }
-
-  70% {
-    content: "Ni hao,";
-  }
-
-  80% {
-    content: "Guten Tag,";
-  }
-
-  90% {
-    content: "Ciao,";
   }
 }
