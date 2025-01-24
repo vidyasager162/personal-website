@@ -1,8 +1,7 @@
 body {
-  margin: 0;
-  padding: 0;
   background-color: #f6f1f1;
   font-family: "Quicksand", sans-serif;
+  line-height: 1.6;
 }
 
 code {
@@ -10,59 +9,27 @@ code {
     monospace;
 }
 
-/* .site-container {
-  padding-left: 20rem;
-  padding-right: 20rem;
-} */
-
-.site-footer {
+header {
+  border-bottom: 1px solid #ddd;
 }
 
-.bold {
+.nav-link {
+  color: #555;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.timeline li {
+  margin-bottom: 1rem;
+}
+
+.timeline span {
   font-weight: bold;
 }
 
-.site-title-container {
-  margin-top: 12rem;
-  position: relative;
+footer {
+  border-top: 1px solid #ddd;
 }
-
-.site-title-img {
-  height: 300px;
-  width: 300px;
-  position: absolute;
-  right: -30px;
-  top: 100px;
-}
-
-/* .change-text::before {
-  content: "Hello,";
-  animation-name: hello;
-  animation-iteration-count: infinite;
-  animation-duration: 10s;
-} */
-
-/* @keyframes hello {
-  10% {
-    content: "Hello,";
-  }
-  30% {
-    content: "Vanakkam,";
-  }
-
-  50% {
-    content: "Namaste,";
-  }
-
-  70% {
-    content: "Konnichiwa,";
-  }
-
-  90% {
-    content: "Anyeonghaseyo,";
-  }
-
-  110% {
-    content: "Bonjour,";
-  }
-} */
