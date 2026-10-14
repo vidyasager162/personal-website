@@ -1,3 +1,9 @@
+html {
+  /* Keep anchored sections clear of the fixed header */
+  scroll-padding-top: 90px;
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f6f1f1;
   font-family: "Quicksand", sans-serif;
@@ -20,6 +26,24 @@ header {
 
 .nav-link:hover {
   color: #000;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .text-md-justify {
+    text-align: justify;
+  }
 }
 
 .timeline li {
